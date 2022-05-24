@@ -1,0 +1,17 @@
+CREATE DATABASE pd3;
+
+USE pd3;
+
+CREATE TABLE artista (
+nro_EMP INT( 100 ) NOT NULL AUTO_INCREMENT ,
+nombre VARCHAR( 20 ) NOT NULL ,
+apellido VARCHAR( 20 ) NOT NULL ,
+vanguardia VARCHAR ( 30 ) NULL ,
+PRIMARY KEY ( nro_emp )
+);  
+
+INSERT INTO artista (nombre, apellido, vangaurdia) VALUES ('Salvador', 'Dali', 'surrealismo');
+INSERT INTO artista (nombre, apellido, vangaurdia) VALUES ('salvador', 'dali', 'dadaismo');
+INSERT INTO artista (nombre, apellido, vangaurdia) VALUES ('max', 'ernst', 'surrealismo');
+INSERT INTO artista (nombre, apellido, vangaurdia) VALUES ('joan', 'miro', 'surrealismo');
+INSERT INTO artista (nombre, apellido, vangaurdia) VALUES ('Joan', 'miró', 'surrealismo');

@@ -1,0 +1,259 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fjalla+One&family=Petemoss&family=Quicksand:wght@200;300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 1080px;
+	background-color: #f9f1c2;
+}
+header{
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13pt;
+	position: sticky;
+}
+nav{
+	width: 100%;
+	height: 90px;
+	float: right;
+	background-color: #814b4c;
+}
+nav ul { 
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	list-style: none;
+}
+nav ul li{
+	padding-top: 4%;
+	padding-right: 4%;
+}
+nav ul li a {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+nav ul li a:hover { 
+	color:#819b4c;
+}
+.logo{
+	width: 9%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 1%;
+}
+section{
+	width: 1080px;
+}
+article{
+	width: 100%;
+}
+.funo{
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/fondouno.png);
+	position: static;
+	padding-top: 25%;
+}
+.infuno{
+	width: 30%;
+	height: 60px;
+	margin-left: 5%;
+	background-color: #f9f1c2;
+	background-image: url(../img/surealismo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 90%;
+	font-size: 13pt;
+}
+.miro{
+	width: 35%;
+	float: left;
+	position: absolute;
+}
+h1{
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15pt;
+	text-decoration: none;
+}
+
+.textouno{
+	width: 60%;
+	height: 500px;
+	float: right;
+	padding-top: 20%;
+	padding: 7%;
+	color: #ffffff;
+	position: sticky;
+	background-image: url(../img/fondotexto.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12pt;
+	text-decoration: none;
+}
+.secdos{
+	margin-top: 3%;
+	width: 100%;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #48653d;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 11pt;
+}
+.logoredes{
+	width: 20px;
+	height: 20px;
+	margin-left: 5%;
+}
+#redes{
+	width: 27%;
+	column-count: 2;
+	column-gap: 10px;
+	text-decoration: none;
+}
+#redes ul{
+	justify-content: left;
+	list-style: none;
+}
+#redes p{
+	color: #ffffff;
+	float: right;
+}
+.e{
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-left: 2%;
+	color: #ffffff;
+}
+#columnas{
+	width: 30%;
+	height: 100px;
+	column-count: 2;
+	column-gap: 10px;
+	text-align: left;
+	text-decoration: none;
+	position: absolute;
+	top: 195%;
+	left: 40%;
+}
+#columnas ul{
+	justify-content: center;
+	list-style: none;
+}
+#columnas ul li a{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+#columnas ul li a:hover { 
+	color:#3d3d3d;
+}
+#logosurre{
+	width: 13%;
+	height: 70px;
+	background-image: url(../img/logodos.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: 193%;
+	left: 70%;
+}
+.white{
+	color: #ffffff;
+	padding: 2%;
+}
+#ht{
+	width: 100%;
+	background-color: #3d3d3d;
+	padding-left: 5%;
+}
+.opacidad{
+	width: 100%;
+	background-color: #3d3d3d;
+	opacity: 80%;
+	padding-left: 1%;
+}
+.gale{
+	max-width: 380px;
+	max-height: 290px;
+	display: inline;
+	margin-top: 10%;
+	padding: 2%;
+	float: right;
+	background-color: #ffffff;
+}
+.qw{
+	width: 100%;
+	display: inherit;
+}
+.qe{
+	width: 100%;
+	height: 900px;
+}
+#formcontacto{
+	width: 500px;
+	margin:0 auto;
+	padding:3%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 11pt;
+}
+#formcontacto input, #formcontacto textarea{
+	width: 100%;
+	padding:5px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 11pt;
+}
+.whit{
+	width: 90%;
+	padding-left: 1%;
+	padding: 2%;
+	color: #3d3d3d;
+}
+.eu{
+	width: 65%;
+	padding: 5%;
+	padding-top: 6%;
+	float: left;
+}
+.ue{
+	width: 35%;
+	float: right;
+	margin-top: 2%;
+}
+.eue:hover{
+	background-color: #ffffff;
+	opacity: 40%;
+}
+#man{
+	width: 100%;
+	height: 400px;
+}
+.magaa{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/magaa.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.opacidade{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-color: #3d3d3d;
+	opacity: 80%;
+	padding-left: 30%;
+}
+.opacidade input{
+	width: 50%;
+	height: 25px;
+}
